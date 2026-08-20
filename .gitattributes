@@ -1,0 +1,14 @@
+# Exclude build artifacts
+# Do not edit manually
+# Project-specific overrides
+*.jpeg binary
+dist/* linguist-vendored
+*.min.js linguist-generated
+
+*.html linguist-vendored
+go.sum linguist-generated
+public/* linguist-vendored
+src/**/*.rs linguist-detectable
+*.bat text eol=crlf
+*.jpg binary
+*.md linguist-documentation
